@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- 1) Display the page heading as ”Soccer Player List” -->
+    <title>Soccer Player List</title>
+</head>
+
+<body>
+    <style>
+        html{
+            font-family: 'Roboto', sans-serif;
+        }
+        .container {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+        .title {
+            text-align: center;
+        }
+        table {
+            border: 4px solid tomato;
+        }
+        th,
+        td {
+            padding: 5px;
+            text-align: center;
+            border: 1px solid lightgrey;
+        }
+    </style>
+    <!-- Create a table:-->
+    <!-- 9) Display 5 players  -->
+    <div class="container">
+        <!-- 8) Make the heading bold -->
+        <h1 class="title">Soccer Player List </h1>
+        <table>
+            <thead>
+                <tr>
+                    <!-- 2) The first column is the image of the soccer player -->
+                    <th>Player Images</th>
+                    <!-- 3) Second column is the name of the player -->
+                    <th>Player Name</th>
+                    <!-- 4) Third column is the name of the club -->
+                    <th>Club Name</th>
+                    <!-- 5) Fourth column is the position of the player -->
+                    <th>Player Position</th>
+                    <!-- 6) Fifth column is the number on the jersey -->
+                    <th>Jersey No.</th>
+                    <!-- 7) Sixth column has two hyperlinks : edit player and delete player. Hint use colspan -->
+                    <th colspan="2">Edit/Delete Player</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="https://www.dixiedeanhotel.co.uk/wp-content/uploads/2018/08/800px-Wayne_Rooney_2-1.jpg"
+                            alt="player1" width="100" height="80" /></td>
+                    <td>Joe Smith</td>
+                    <td>Club A</td>
+                    <td>Keeper</td>
+                    <td>1</td>
+                    <td><a href="#">Edit</a></td>
+                    <td><a href="#">Delete</a></td>
+                </tr>
+                <tr>
+                    <td><img src="https://www.1sports1.com/wp-content/uploads/2017/02/mata.jpg" alt="player1"
+                            width="100" height="100" /></td>
+                    <td>Mike L.</td>
+                    <td>Club B</td>
+                    <td>Centre Back</td>
+                    <td>8</td>
+                    <td><a href="#">Edit</a></td>
+                    <td><a href="#">Delete</a></td>
+                </tr>
+                <tr>
+                    <td><img src="https://t.resfu.com/media/img_news/paul-merson.jpg" alt="player1" width="100"
+                            height="100" /></td>
+                    <td>Zach White</td>
+                    <td>Club C</td>
+                    <td>Wing Back</td>
+                    <td>10</td>
+                    <td><a href="#">Edit</a></td>
+                    <td><a href="#">Delete</a></td>
+                </tr>
+                <tr>
+                    <td><img src="https://cdn.playbuzz.com/cdn/ebcce27b-4177-4bc5-8250-4f8479e032fe/eefc334b-1b63-4ada-8bc9-e282dcc505ee.jpg"
+                            alt="player1" width="100" height="100" /></td>
+                    <td>Jason T.</td>
+                    <td>Club D</td>
+                    <td>Centre Midfield</td>
+                    <td>12</td>
+                    <td><a href="#">Edit</a></td>
+                    <td><a href="#">Delete</a></td>
+                </tr>
+                <tr>
+                    <td><img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/aldershot-town-v-manchester-united-carling-cup-fourth-round-5be6f583b47f3d7275000002.jpg"
+                            alt="player1" width="100" height="100" /></td>
+                    <td>Rob K.</td>
+                    <td>Club E</td>
+                    <td>Centre Forward</td>
+                    <td>15</td>
+                    <td><a href="#">Edit</a></td>
+                    <td><a href="#">Delete</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</body>
+</html>
